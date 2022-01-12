@@ -51,8 +51,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Project gallery -->
       <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
         <div
           class="mb-10 sm:mb-0"
@@ -76,9 +74,11 @@
               class="
                 text-2xl
                 font-semibold
-                text-secondary-dark
-                dark:text-secondary-light
-                mb-2
+                text-purple-800
+                bg-purple-100
+                px-4
+                mb-6
+                py-5
               "
             >
               {{ project.clientTitle }}
@@ -110,9 +110,11 @@
               class="
                 text-2xl
                 font-semibold
-                text-ternary-dark
-                dark:text-ternary-light
-                mb-2
+                text-purple-800
+                bg-purple-100
+                px-4
+                mb-6
+                py-5
               "
             >
               {{ project.objectivesTitle }}
@@ -128,54 +130,29 @@
               class="
                 text-2xl
                 font-semibold
-                text-ternary-dark
-                dark:text-ternary-light
-                mb-2
+                bg-purple-100
+                px-4
+                mb-6
+                py-5
+                text-purple-800
               "
             >
               {{ project.techTitle }}
             </p>
-            <p class="text-primary-dark dark:text-ternary-light">
-              {{ project.technologies.join(", ") }}
-            </p>
-          </div>
-
-          <!-- Single project social sharing -->
-          <div>
-            <p
+            <span
+              v-for="tool in project.technologies"
               class="
-                text-2xl
-                font-semibold
-                text-ternary-dark
-                dark:text-ternary-light
-                mb-2
+                bg-purple-100
+                px-2
+                py-1
+                rounded-lg
+                mx-3
+                leading-loose
+                text-purple-800
               "
             >
-              {{ project.socialTitle }}
-            </p>
-            <div class="flex items-center gap-3 mt-5">
-              <a
-                v-for="social in project.socialSharings"
-                :key="social.id"
-                :href="social.url"
-                target="__blank"
-                aria-label="Share Project"
-                class="
-                  bg-ternary-light
-                  dark:bg-ternary-dark
-                  text-gray-400
-                  hover:text-primary-dark
-                  dark:hover:text-primary-light
-                  p-2
-                  rounded-lg
-                  shadow-sm
-                "
-                ><i
-                  :data-feather="social.icon"
-                  class="w-4 lg:w-5 h-4 lg:h-5"
-                ></i
-              ></a>
-            </div>
+              {{ tool }}
+            </span>
           </div>
         </div>
 
@@ -183,11 +160,12 @@
         <div class="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
           <p
             class="
-              text-primary-dark
-              dark:text-primary-light
-              text-xl
+              text-purple-800 text-xl
               font-bold
-              mb-7
+              bg-purple-100
+              px-4
+              mb-6
+              py-5
             "
           >
             {{ project.detailsTitle }}
@@ -201,9 +179,6 @@
           </p>
         </div>
       </div>
-
-      <!-- Project related projects -->
-      <ProjectRelatedProjects />
     </div>
 
     <!-- Load not found components if no project found -->

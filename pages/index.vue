@@ -18,9 +18,9 @@
           rounded-lg
           shadow-lg
           hover:shadow-xl
-          bg-indigo-500
-          hover:bg-indigo-600
-          focus:ring-1 focus:ring-indigo-900
+          bg-purple-700
+          hover:bg-purple-600
+          focus:ring-1 focus:ring-purple-900
           text-white text-md
           sm:text-
           font-normal

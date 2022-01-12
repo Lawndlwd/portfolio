@@ -134,7 +134,7 @@
               text-md
               font-medium
               bg-purple-800
-              hover:bg-indigo-600
+              hover:bg-purple-600
               text-white
               shadow-sm
               rounded-md
@@ -267,18 +267,7 @@ export default {
       // }
     },
     showModal() {
-      if (this.modal) {
-        // Stop screen scrolling
-        document
-          .getElementsByTagName("html")[0]
-          .classList.remove("overflow-y-hidden");
-        this.modal = false;
-      } else {
-        document
-          .getElementsByTagName("html")[0]
-          .classList.add("overflow-y-hidden");
-        this.modal = true;
-      }
+      this.$router.push("/contact");
     },
   },
 };

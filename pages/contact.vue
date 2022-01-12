@@ -7,9 +7,6 @@
       md:flex-row md:py-10 md:mt-20
     "
   >
-    <!-- Contact form -->
-    <ContactForm />
-
     <!-- Contact details -->
     <ContactDetails :contacts="contacts" />
   </div>
@@ -25,17 +22,17 @@ export default {
       contacts: [
         {
           id: 1,
-          name: "Your Address, Your City, Your Country",
+          name: "Paris, France",
           icon: "map-pin",
         },
         {
           id: 2,
-          name: "email@domain.com",
+          name: "lwdlwd95@gmail.com",
           icon: "mail",
         },
         {
           id: 3,
-          name: "555 8888 888",
+          name: "0033 6 04 47 57 13",
           icon: "phone",
         },
       ],

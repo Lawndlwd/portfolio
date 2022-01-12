@@ -32,8 +32,8 @@
             target="__blank"
             class="
               text-gray-400
-              hover:text-indigo-500
-              dark:hover:text-indigo-400
+              hover:text-purple-700
+              dark:hover:text-purple-700
               cursor-pointer
               rounded-lg
               bg-gray-50

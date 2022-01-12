@@ -35,9 +35,7 @@
       class="
         block
         text-left text-lg text-primary-dark
-        dark:text-ternary-light
-        hover:text-secondary-dark
-        dark:hover:text-secondary-light
+        dark:text-ternary-light dark:hover:text-secondary-light
         sm:mx-4
         mb-2
         sm:py-2
@@ -85,8 +83,8 @@
           block
           text-left text-md
           font-thin
-          bg-indigo-500
-          hover:bg-indigo-600
+          bg-purple-700
+          hover:bg-purple-600
           text-white
           shadow-sm
           rounded-md
@@ -112,7 +110,7 @@ export default {
 <style>
 #nav .nuxt-link-exact-active,
 #nav .nuxt-link-active {
-  @apply text-indigo-700 dark:text-indigo-400;
+  @apply text-purple-700 dark:text-purple-700;
   @apply font-normal;
 }
 </style>

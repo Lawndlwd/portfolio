@@ -194,10 +194,10 @@
                         text-white
                         font-normal
                         sm:font-medium
-                        bg-indigo-500
-                        hover:bg-indigo-600
+                        bg-purple-700
+                        hover:bg-purple-600
                         rounded-md
-                        focus:ring-1 focus:ring-indigo-900
+                        focus:ring-1 focus:ring-purple-900
                       "
                       type="submit"
                       aria-label="Submit Request"
@@ -224,7 +224,7 @@
                     rounded-md
                     font-normal
                     sm:font-bold
-                    focus:ring-1 focus:ring-indigo-900
+                    focus:ring-1 focus:ring-purple-900
                   "
                   @click="showModal()"
                   aria-label="Close Modal"

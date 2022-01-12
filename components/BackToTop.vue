@@ -12,8 +12,8 @@
         cursor-pointer
         flex
         p-2
-        bg-indigo-500
-        hover:bg-indigo-600
+        bg-purple-700
+        hover:bg-purple-600
         text-white
         items-center
         hover:shadow-sm

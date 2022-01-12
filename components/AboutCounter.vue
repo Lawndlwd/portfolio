@@ -21,27 +21,10 @@
             dark:text-secondary-light
             mb-2
           "
-          >7+</span
+          >2+</span
         >
         <span class="block text-md text-ternary-dark dark:text-ternary-light"
           >Years of experience</span
-        >
-      </div>
-
-      <!-- About me single counter -->
-      <div class="mb-20 sm:mb-0">
-        <span
-          class="
-            text-4xl
-            font-bold
-            text-secondary-dark
-            dark:text-secondary-light
-            mb-2
-          "
-          >2k</span
-        >
-        <span class="block text-md text-ternary-dark dark:text-ternary-light"
-          >Stars on GitHub</span
         >
       </div>
 
@@ -72,7 +55,7 @@
             dark:text-secondary-light
             mb-2
           "
-          >77</span
+          >+7</span
         >
         <span class="block text-md text-ternary-dark dark:text-ternary-light"
           >Projects completed</span

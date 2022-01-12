@@ -18,7 +18,7 @@
     </h1>
     <p
       class="
-        mt-4
+        mt-10
         text-2xl text-center
         font-semibold
         leading-none
@@ -43,15 +43,15 @@
           mb-6
           sm:mb-0
           text-lg
-          border border-indigo-200
+          border border-purple-200
           dark:border-ternary-dark
           py-2.5
           sm:py-3
           shadow-lg
           rounded-lg
           bg-purple-200
-          focus:ring-1 focus:ring-indigo-900
-          hover:bg-indigo-500
+          focus:ring-1 focus:ring-purple-900
+          hover:bg-purple-700
           text-gray-500
           hover:text-white
         "
