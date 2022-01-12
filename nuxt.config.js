@@ -4,7 +4,7 @@ export default {
   colorMode: {
     classSuffix: "",
   },
-
+  buildDir: "dist",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "Levende's Portfolio",
