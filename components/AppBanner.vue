@@ -1,88 +1,78 @@
 <template>
-  <section
-    class="
-      flex flex-col
-      sm:justify-between
-      items-center
-      sm:flex-row
-      mt-12
-      md:mt-2
-    "
-  >
+  <section class="text-left mt-48 w-8/1">
     <!-- Banner left contents -->
-    <div class="w-full md:w-1/3 text-left">
-      <h1
-        class="
-          text-3xl
-          md:text-4xl
-          xl:text-5xl
-          text-center
-          sm:text-left
-          font-semibold
-          text-ternary-dark
-          dark:text-primary-light
-          uppercase
-        "
-      >
-        Hi, Iam Stoman
-      </h1>
-      <p
-        class="
-          mt-4
-          text-2xl
-          md:text-3xl
-          xl:text-4xl
-          text-center
-          sm:text-left
-          font-semibold
-          leading-none
-          text-gray-400
-        "
-      >
-        A Full-Stack Developer & Design Enthusiast
+    <h1
+      class="
+        mx-auto
+        text-3xl
+        md:text-4xl
+        xl:text-5xl
+        text-center text-ternary-dark
+        dark:text-primary-light
+      "
+    >
+      <span class="font-mono leading-relaxed"> Hi, I'm </span>
+      <p class="font-extrabold mt-5 text-4xl md:text-5xl xl:text-7xl">
+        Levende Mohammad
       </p>
-      <div class="flex justify-center sm:block">
-        <a
-          href="/Stoman-Resume.pdf"
-          download=""
-          class="
-            flex
-            justify-center
-            items-center
-            w-36
-            sm:w-48
-            mt-12
-            mb-6
-            sm:mb-0
-            text-lg
-            border border-indigo-200
-            dark:border-ternary-dark
-            py-2.5
-            sm:py-3
-            shadow-lg
-            rounded-lg
-            bg-indigo-50
-            focus:ring-1 focus:ring-indigo-900
-            hover:bg-indigo-500
-            text-gray-500
-            hover:text-white
-          "
-          aria-label="Download Resume"
-        >
-          <i
-            data-feather="arrow-down-circle"
-            class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6"
-          ></i>
-          <span class="text-sm sm:text-lg">Download CV</span></a
-        >
-      </div>
+    </h1>
+    <p
+      class="
+        mt-4
+        text-2xl text-center
+        font-semibold
+        leading-none
+        text-purple-700
+        font-mono
+      "
+    >
+      Full Stack JavaScript 🤖. React, Vue, TypeScript, Node.
+    </p>
+    <div class="flex justify-center items-center sm:block">
+      <a
+        href="/Levende-CV.pdf"
+        download=""
+        class="
+          mx-auto
+          flex
+          justify-center
+          items-center
+          w-36
+          sm:w-48
+          mt-12
+          mb-6
+          sm:mb-0
+          text-lg
+          border border-indigo-200
+          dark:border-ternary-dark
+          py-2.5
+          sm:py-3
+          shadow-lg
+          rounded-lg
+          bg-purple-200
+          focus:ring-1 focus:ring-indigo-900
+          hover:bg-indigo-500
+          text-gray-500
+          hover:text-white
+        "
+        aria-label="Download Resume"
+      >
+        <i
+          data-feather="arrow-down-circle"
+          class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6"
+        ></i>
+        <span class="text-sm sm:text-lg">Download CV</span></a
+      >
     </div>
 
     <!-- Banner right illustration -->
-    <div class="w-full md:w-2/3 text-right float-right mt-4 sm:mt-0">
-      <DeveloperDarkIllustration v-if="this.$colorMode.value == 'dark'" />
-      <DeveloperLightIllustration v-else />
-    </div>
+    <!-- <div class="w-full md:w-2/3 text-right float-right mt-4 sm:mt-0">
+      <img
+        src="https://i.ibb.co/pnQhHMV/IMG-2298-removebg-preview.png"
+        alt="IMG-2298-removebg-preview"
+        border="0"
+      />
+    </div> -->
   </section>
 </template>
 

@@ -61,20 +61,7 @@
               font-medium
               hover:underline
             "
-            >Nuxt.js & TailwindCSS Portfolio</a
-          >
-          .
-          <a
-            href="https://stoman.me"
-            target="__blank"
-            class="
-              text-secondary-dark
-              dark:text-secondary-light
-              font-medium
-              uppercase
-              hover:underline
-            "
-            >Stoman</a
+            >Levende's Portfolio</a
           >
         </div>
       </div>

@@ -6,18 +6,17 @@ export const state = () => ({
   projects: [
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdb",
-      title: "Google Health Platform",
+      title: "LAMA",
       category: "Web Application",
       img: "images/web-project-2.jpg",
       publishDate: "Nov 04, 2021",
-      tag: "UI / Frontend",
+      tag: "FullStack",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+        "A Course or Blog like site based on classes reach out to their students and post extra recourses and videos & maybe challenges to those specific students.",
       techTitle: "Tools & Technologies",
       detailsTitle: "Challenge",
-      socialTitle: "Share This",
       projectImages: [
         {
           id: uuidv4(),
@@ -39,31 +38,30 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Wild Code School",
         },
         {
           id: uuidv4(),
           title: "Services",
-          details: "UI Design & Frontend Development",
+          details: "Teaching Web Development",
         },
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          details: "https://wildcodeschool.com",
         },
       ],
       technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
+        "Typescript",
+        "React.js",
         "TailwindCSS",
-        "AdobeXD",
+        "Node",
+        "ExpressJS",
+        "GraphQl",
+        "Docker",
+        "MongoDB",
+        "Github Actions for CI/CD",
+        "GCP",
       ],
       projectDetails: [
         {
@@ -87,53 +85,19 @@ export const state = () => ({
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
         },
       ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
-      ],
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdc",
-      title: "Phoenix Digital Agency",
-      category: "Mobile Application",
+      title: "LevoBnB",
+      category: "Web Applecation",
       img: "images/mobile-project-2.jpg",
       publishDate: "Nov 04, 2021",
       tag: "UI / Frontend",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+      objectivesDetails: "Create a copy of Airbnb with googleMap API.",
       techTitle: "Tools & Technologies",
       detailsTitle: "Challenge",
-      socialTitle: "Share This",
       projectImages: [
         {
           id: uuidv4(),
@@ -151,35 +115,17 @@ export const state = () => ({
           img: "../images/mobile-project-2.jpg",
         },
       ],
-      companyInfos: [
-        {
-          id: uuidv4(),
-          title: "Name",
-          details: "Company Ltd",
-        },
-        {
-          id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
-        },
-        {
-          id: uuidv4(),
-          title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
-        },
-      ],
       technologies: [
         "HTML",
         "CSS",
         "JavaScript",
         "Nuxt.js",
         "TailwindCSS",
-        "AdobeXD",
+        "Algolia",
+        "Cloudinary",
+        "Google Maps & Places API",
+        "Stripe",
+        "Vercel",
       ],
       projectDetails: [
         {
@@ -201,38 +147,6 @@ export const state = () => ({
           id: uuidv4(),
           details:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-      ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
         },
       ],
     },
@@ -249,7 +163,6 @@ export const state = () => ({
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
       techTitle: "Tools & Technologies",
       detailsTitle: "Challenge",
-      socialTitle: "Share This",
       projectImages: [
         {
           id: uuidv4(),
@@ -317,386 +230,6 @@ export const state = () => ({
           id: uuidv4(),
           details:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-      ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
-      ],
-    },
-    {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8ccc99",
-      title: "Cloud Storage Platform",
-      category: "UI/UX Design",
-      img: "images/ui-project-2.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "Web / Frontend",
-      clientTitle: "About Client",
-      objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
-      techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
-      socialTitle: "Share This",
-      projectImages: [
-        {
-          id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/web-project-1.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/mobile-project-2.jpg",
-        },
-      ],
-      companyInfos: [
-        {
-          id: uuidv4(),
-          title: "Name",
-          details: "Company Ltd",
-        },
-        {
-          id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
-        },
-        {
-          id: uuidv4(),
-          title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
-        },
-      ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
-      ],
-      projectDetails: [
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-      ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
-      ],
-    },
-    {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdm",
-      title: "Kabul Social App",
-      category: "Mobile Application",
-      img: "images/mobile-project-1.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Mobile",
-      clientTitle: "About Client",
-      objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
-      techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
-      socialTitle: "Share This",
-      projectImages: [
-        {
-          id: uuidv4(),
-          title: "Kabul Social App",
-          img: "../images/web-project-1.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Kabul Social App",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Kabul Social App",
-          img: "../images/mobile-project-2.jpg",
-        },
-      ],
-      companyInfos: [
-        {
-          id: uuidv4(),
-          title: "Name",
-          details: "Company Ltd",
-        },
-        {
-          id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
-        },
-        {
-          id: uuidv4(),
-          title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
-        },
-      ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
-      ],
-      projectDetails: [
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-      ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
-      ],
-    },
-    {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
-      title: "Apple Design System",
-      category: "Web Application",
-      img: "images/web-project-1.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Mobile",
-      clientTitle: "About Client",
-      objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
-      techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
-      socialTitle: "Share This",
-      projectImages: [
-        {
-          id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/web-project-1.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/mobile-project-2.jpg",
-        },
-      ],
-      companyInfos: [
-        {
-          id: uuidv4(),
-          title: "Name",
-          details: "Company Ltd",
-        },
-        {
-          id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
-        },
-        {
-          id: uuidv4(),
-          title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
-        },
-      ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
-      ],
-      projectDetails: [
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-      ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
         },
       ],
     },
@@ -760,25 +293,19 @@ export const state = () => ({
       id: uuidv4(),
       name: "GitHub",
       icon: "github",
-      url: "https://github.com/realstoman",
+      url: "https://github.com/Lawndlwd",
     },
     {
       id: uuidv4(),
-      name: "Twitter",
-      icon: "twitter",
-      url: "https://twitter.com/realstoman",
+      name: "LinkedIn",
+      icon: "linkedin",
+      url: "https://www.linkedin.com/in/levend-mohammad/",
     },
     {
       id: uuidv4(),
       name: "Medium",
       icon: "book",
-      url: "https://stoman.medium.com",
-    },
-    {
-      id: uuidv4(),
-      name: "Instagram",
-      icon: "instagram",
-      url: "https://instagram.com/realstoman",
+      url: "https://medium.com/@lwdlwd95",
     },
   ],
   categories: [

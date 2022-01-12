@@ -22,7 +22,7 @@
         class="cls-2"
         d="M93.71,232.88A45,45,0,0,0,87.76,250a47,47,0,0,0,5.95,29.09Z"
       />
-      <text class="cls-3" transform="translate(418.54 268.82)">Stoman</text>
+      <text class="cls-3" transform="translate(418.54 268.82)">Levende</text>
     </svg>
   </div>
 </template>
@@ -40,6 +40,6 @@
 .cls-3 {
   font-size: 253.27px;
   fill: #303031;
-  font-family: Ubuntu-Regular, Ubuntu;
+  font-family: "Space Mono", monospace;
 }
 </style>

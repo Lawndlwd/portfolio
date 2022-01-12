@@ -19,9 +19,7 @@
       to="/projects"
       class="
         block
-        text-left text-lg
-        font-thin
-        text-primary-dark
+        text-left text-lg text-primary-dark
         dark:text-ternary-light
         hover:text-secondary-dark
         dark:hover:text-secondary-light
@@ -36,9 +34,7 @@
       to="/about"
       class="
         block
-        text-left text-lg
-        font-thin
-        text-primary-dark
+        text-left text-lg text-primary-dark
         dark:text-ternary-light
         hover:text-secondary-dark
         dark:hover:text-secondary-light
@@ -58,9 +54,7 @@
       to="/contact"
       class="
         block
-        text-left text-lg
-        font-thin
-        text-primary-dark
+        text-left text-lg text-primary-dark
         dark:text-ternary-light
         hover:text-secondary-dark
         dark:hover:text-secondary-light

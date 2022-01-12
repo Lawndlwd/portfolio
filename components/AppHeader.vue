@@ -16,12 +16,9 @@
         <!-- Header logos -->
         <div>
           <NuxtLink to="/">
-            <AppLogoLight
-              v-if="this.$colorMode.value == 'dark'"
-              class="w-36"
-              alt="Dark Light"
-            />
-            <AppLogoDark v-else class="w-36" alt="Dark Logo" />
+            <h1 class="text-3xl" transform="translate(418.54 268.82)">
+              Levend<span class="text-purple-700">e</span>
+            </h1>
           </NuxtLink>
         </div>
 
@@ -136,7 +133,7 @@
             class="
               text-md
               font-medium
-              bg-indigo-500
+              bg-purple-800
               hover:bg-indigo-600
               text-white
               shadow-sm
