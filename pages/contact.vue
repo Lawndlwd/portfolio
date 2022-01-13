@@ -24,16 +24,13 @@ export default {
           id: 1,
           name: "Paris, France",
           icon: "map-pin",
+          link: "#",
         },
         {
           id: 2,
           name: "lwdlwd95@gmail.com",
           icon: "mail",
-        },
-        {
-          id: 3,
-          name: "0033 6 04 47 57 13",
-          icon: "phone",
+          link: "mailto:lwdlwd95@gmail.com",
         },
       ],
     };

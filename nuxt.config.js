@@ -4,10 +4,9 @@ export default {
   colorMode: {
     classSuffix: "",
   },
-  buildDir: "dist",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Levende's Portfolio",
+    title: "Levende Mohammad",
     htmlAttrs: {
       lang: "en",
     },
@@ -18,7 +17,7 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com" },
       {

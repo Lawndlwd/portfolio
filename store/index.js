@@ -9,6 +9,8 @@ export const state = () => ({
       title: "LevoBnB",
       category: "Web Applecation",
       img: "../images/image.png",
+      url: "https://levo-bnb.vercel.app/",
+      github: "https://github.com/Lawndlwd/LevoBnb",
       publishDate: "Nov 04, 2021",
       tag: "UI / Frontend",
       clientTitle: "About Client",
@@ -79,6 +81,7 @@ export const state = () => ({
       category: "Web 3.0 Application",
       img: "images/pwa.png",
       publishDate: "Nov 04, 2021",
+      url: "https://mobile.gravity.earth",
       tag: "UI / Frontend",
       clientTitle: "Gravity",
       objectivesTitle: "Objective",
@@ -144,6 +147,7 @@ export const state = () => ({
       title: "Gravity Portal",
       category: "Web Application",
       img: "images/portal.png",
+      url: "https://staging.portal.gravity.earth/",
       publishDate: "Nov 04, 2021",
       tag: "UI / Frontend",
       clientTitle: "Gravity",
@@ -212,6 +216,8 @@ export const state = () => ({
       img: "images/image-4.png",
       publishDate: "Nov 04, 2021",
       clientTitle: "About",
+      url: "https://staging.les-lama.wns.wilders.dev/landing",
+      github: "https://github.com/Lawndlwd/Lama-wns",
       tag: "FullStack",
       objectivesTitle: "Objective",
       objectivesDetails:
@@ -324,11 +330,15 @@ export const state = () => ({
   aboutMe: [
     {
       id: uuidv4(),
-      bio: "Self-taught Front-end developer focused on developing semantically correct, accessible, and responsive web applications, as well as improving my skills within the JavaScript ecosystem, working with current web technologies such as Vue,Typescript, React, Nuxt.js & Node.js to create data-driven, feature-rich applications.",
+      bio: "Self-taught Front-end developer focused on developing accessible, well tested and responsive web applications, as well as improving my skills within the JavaScript ecosystem, working with current web technologies such as Vue, Typescript, React, Nuxt.js & Node.js to create feature-rich applications.",
     },
     {
       id: uuidv4(),
-      bio: "Proficient with design tools such as Figma, Adobe XD as well as basic UI/UX principles and prototyping. I've always been interested in solving problems, programming, coding and Designing apps was the best way for me to keep my interests growing in the right way.",
+      bio: "Proficient with design tools such as Figma, as well as basic UI/UX principles and prototyping. I've always been interested in solving problems, programming, coding and Designing apps was the best way for me to keep my interests growing in the right way.",
+    },
+    {
+      id: uuidv4(),
+      bio: "I love to do Typescript Vue or Nuxt application!!",
     },
   ],
   copyrightDate: new Date().getFullYear(),

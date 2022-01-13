@@ -21,46 +21,146 @@
     </div>
 
     <!-- Projects grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-16 sm:gap-10">
+    <div class="grid grid-cols-1 mt-16 sm:gap-10">
       <div
         v-for="project in filteredProjects"
         :key="project.id"
         class="
           rounded-xl
-          shadow-lg
+          border-2 border-black
+          py-5
+          px-10
           hover:shadow-xl
+          grid grid-cols-1
+          lg:grid-cols-2
           cursor-pointer
           mb-10
           sm:mb-0
           bg-secondary-light
           dark:bg-ternary-dark
+          gap-4
         "
         aria-label="Single Project"
       >
-        <NuxtLink :to="`/projects/${project.id}`">
-          <div>
-            <img
-              :src="project.img"
-              :alt="project.title"
-              class="rounded-xl border-none object-cover max-h-60 mx-auto"
-            />
+        <div>
+          <img
+            :src="project.img"
+            :alt="project.title"
+            class="rounded-xl border-none object-covers mx-auto"
+          />
+          <div class="flex justify-center items-center">
+            <a
+              :href="project.url"
+              class="
+                mx-auto
+                flex
+                justify-center
+                items-center
+                w-36
+                sm:w-48
+                mt-12
+                mb-6
+                sm:mb-0
+                text-lg
+                border border-purple-200
+                dark:border-ternary-dark
+                py-2.5
+                sm:py-3
+                shadow-lg
+                rounded-lg
+                bg-purple-200
+                focus:ring-1 focus:ring-purple-900
+                hover:bg-purple-700
+                text-gray-500
+                hover:text-white
+              "
+              target="_blank"
+            >
+              <span class="text-sm sm:text-lg">Live demo</span></a
+            >
+            <a
+              :href="project.github || '#'"
+              class="
+                mx-auto
+                flex
+                justify-center
+                items-center
+                w-36
+                sm:w-48
+                mt-12
+                mb-6
+                sm:mb-0
+                text-lg
+                border-2 border-purple-800
+                dark:border-ternary-dark
+                py-2.5
+                sm:py-3
+                shadow-lg
+                rounded-lg
+                focus:ring-1 focus:ring-purple-900
+                hover:bg-purple-700
+                text-gray-500
+                hover:text-white
+              "
+              target="_blank"
+            >
+              <span class="text-sm sm:text-lg">{{
+                project.github ? "Github repo" : "Private repo"
+              }}</span></a
+            >
           </div>
-          <div class="text-center px-4 py-6">
+        </div>
+        <div class="px-4 py-6">
+          <p
+            class="
+              text-purple-800 text-xl
+              font-bold
+              bg-purple-100
+              px-4
+              mb-6
+              py-5
+            "
+          >
+            {{ project.title }}
+          </p>
+          <p class="text-lg text-purple-800 mb-5">{{ project.category }}</p>
+          <p
+            v-for="projectDetail in project.projectDetails"
+            :key="projectDetail.id"
+            class="mb-5 text-lg text-ternary-dark dark:text-ternary-light pl-5"
+          >
+            {{ projectDetail.details }}
+          </p>
+          <div class="mb-7">
             <p
               class="
-                text-2xl text-ternary-dark
-                dark:text-ternary-light
+                text-2xl
                 font-semibold
-                mb-2
+                bg-purple-100
+                px-4
+                mb-6
+                py-5
+                text-purple-800
               "
             >
-              {{ project.title }}
+              {{ project.techTitle }}
             </p>
-            <span class="text-lg text-ternary-dark dark:text-ternary-light">{{
-              project.category
-            }}</span>
+            <span
+              v-for="tool in project.technologies"
+              class="
+                bg-purple-100
+                px-2
+                py-1
+                rounded-lg
+                mx-3
+                leading-loose
+                text-purple-800
+              "
+            >
+              {{ tool }}
+            </span>
           </div>
-        </NuxtLink>
+        </div>
       </div>
     </div>
   </div>
@@ -86,6 +186,11 @@ export default {
         return this.filterProjectsBySearch();
       }
       return this.projects;
+    },
+    computed: {
+      project() {
+        return this.$store.getters.getProjectById(this.$route.params.id);
+      },
     },
   },
   methods: {

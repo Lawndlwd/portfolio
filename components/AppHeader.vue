@@ -16,8 +16,11 @@
         <!-- Header logos -->
         <div>
           <NuxtLink to="/">
-            <h1 class="text-3xl" transform="translate(418.54 268.82)">
-              Levend<span class="text-purple-700">e</span>
+            <h1
+              class="text-3xl font-extrabold tracking-widest"
+              transform="translate(418.54 268.82)"
+            >
+              Levend<span class="text-purple-700 rotate-45">e</span>
             </h1>
           </NuxtLink>
         </div>
