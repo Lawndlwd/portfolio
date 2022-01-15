@@ -56,5 +56,13 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  builds: [
+    {
+      src: "nuxt.config.js",
+      use: "@nuxtjs/now-builder",
+      config: {
+        serverFiles: ["./.nuxt/dist/sitemap-routes.json"],
+      },
+    },
+  ],
 };
