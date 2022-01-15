@@ -48,6 +48,10 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@nuxtjs/sitemap"],
+  sitemap: {
+    hostname: process.env.BASE_URL || "https://fiveslash.com",
+    path: "/sitemap.xml",
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   builds: [
