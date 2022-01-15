@@ -45,7 +45,7 @@
                   pb-5
                   pl-8
                   border-b border-ternary-light
-                  dark:border-ternary-dark
+                  dark:border-primary-dark
                 "
               >
                 <h5
@@ -91,7 +91,7 @@
                         text-md
                         dark:font-medium
                         bg-secondary-light
-                        dark:bg-ternary-dark
+                        dark:bg-primary-dark
                         text-primary-dark
                         dark:text-ternary-light
                       "
@@ -115,7 +115,7 @@
                         text-md
                         dark:font-medium
                         bg-secondary-light
-                        dark:bg-ternary-dark
+                        dark:bg-primary-dark
                         text-primary-dark
                         dark:text-ternary-light
                       "
@@ -139,7 +139,7 @@
                         text-md
                         dark:font-medium
                         bg-secondary-light
-                        dark:bg-ternary-dark
+                        dark:bg-primary-dark
                         text-primary-dark
                         dark:text-ternary-light
                       "
@@ -171,7 +171,7 @@
                         text-md
                         dark:font-medium
                         bg-secondary-light
-                        dark:bg-ternary-dark
+                        dark:bg-primary-dark
                         text-primary-dark
                         dark:text-ternary-light
                       "
@@ -217,7 +217,7 @@
                     py-2
                     bg-gray-600
                     text-primary-light
-                    hover:bg-ternary-dark
+                    hover:bg-primary-dark
                     dark:bg-gray-200
                     dark:text-secondary-dark
                     dark:hover:bg-primary-light

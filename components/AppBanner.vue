@@ -7,7 +7,7 @@
         text-3xl
         md:text-4xl
         xl:text-5xl
-        text-center text-ternary-dark
+        text-center text-primary-dark
         dark:text-primary-light
       "
     >
@@ -44,7 +44,7 @@
           sm:mb-0
           text-lg
           border border-purple-200
-          dark:border-ternary-dark
+          dark:border-primary-dark
           py-2.5
           sm:py-3
           shadow-lg

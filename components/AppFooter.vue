@@ -37,7 +37,7 @@
               cursor-pointer
               rounded-lg
               bg-gray-50
-              dark:bg-ternary-dark
+              dark:bg-primary-dark
               hover:bg-gray-100
               shadow-sm∫
               p-4
@@ -50,7 +50,7 @@
 
       <!-- Footer copyright -->
       <div class="flex justify-center items-center text-center">
-        <div class="text-lg text-ternary-dark dark:text-ternary-light">
+        <div class="text-lg text-primary-dark dark:text-ternary-light">
           &copy; {{ copyrightDate }}.
           <a
             href="https://github.com/realstoman/nuxtjs-tailwindcss-portfolio"

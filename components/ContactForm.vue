@@ -46,7 +46,7 @@
               text-primary-dark
               dark:text-secondary-light
               bg-ternary-light
-              dark:bg-ternary-dark
+              dark:bg-primary-dark
               rounded-md
               shadow-sm
               text-md
@@ -75,7 +75,7 @@
               text-primary-dark
               dark:text-secondary-light
               bg-ternary-light
-              dark:bg-ternary-dark
+              dark:bg-primary-dark
               rounded-md
               shadow-sm
               text-md
@@ -104,7 +104,7 @@
               text-primary-dark
               dark:text-secondary-light
               bg-ternary-light
-              dark:bg-ternary-dark
+              dark:bg-primary-dark
               rounded-md
               shadow-sm
               text-md
@@ -134,7 +134,7 @@
               text-primary-dark
               dark:text-secondary-light
               bg-ternary-light
-              dark:bg-ternary-dark
+              dark:bg-primary-dark
               rounded-md
               shadow-sm
               text-md

@@ -15,7 +15,7 @@
       <p
         v-for="bio in aboutMe"
         :key="bio.id"
-        class="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
+        class="mb-4 text-primary-dark dark:text-ternary-light text-lg"
       >
         {{ bio.bio }}
       </p>

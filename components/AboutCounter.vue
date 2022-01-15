@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">
+  <div class="mt-10 sm:mt-20 bg-primary-light dark:bg-primary-dark shadow-sm">
     <!-- About me counters start -->
     <div
       class="
@@ -23,7 +23,7 @@
           "
           >2+</span
         >
-        <span class="block text-md text-ternary-dark dark:text-ternary-light"
+        <span class="block text-md text-primary-dark dark:text-ternary-light"
           >Years of experience</span
         >
       </div>
@@ -40,7 +40,7 @@
           "
           >32</span
         >
-        <span class="block text-md text-ternary-dark dark:text-ternary-light"
+        <span class="block text-md text-primary-dark dark:text-ternary-light"
           >Positive feedback</span
         >
       </div>
@@ -57,7 +57,7 @@
           "
           >+7</span
         >
-        <span class="block text-md text-ternary-dark dark:text-ternary-light"
+        <span class="block text-md text-primary-dark dark:text-ternary-light"
           >Projects completed</span
         >
       </div>

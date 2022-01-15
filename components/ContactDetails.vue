@@ -21,7 +21,7 @@
           ></i>
           <a
             :href="contact.link"
-            class="text-lg mb-4 text-ternary-dark dark:text-ternary-light"
+            class="text-lg mb-4 text-primary-dark dark:text-ternary-light"
             :class="
               contact.icon === 'mail' || contact.icon === 'phone'
                 ? 'hover:underline cursor-pointer'

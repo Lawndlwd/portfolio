@@ -8,7 +8,7 @@
           sm:text-5xl
           font-semibold
           mb-3
-          text-ternary-dark
+          text-primary-dark
           dark:text-ternary-light
         "
       >
@@ -37,7 +37,7 @@
           mb-10
           sm:mb-0
           bg-secondary-light
-          dark:bg-ternary-dark
+          dark:bg-primary-dark
           gap-4
         "
         aria-label="Single Project"
@@ -63,7 +63,7 @@
                 sm:mb-0
                 text-lg
                 border border-purple-200
-                dark:border-ternary-dark
+                dark:border-primary-dark
                 py-2.5
                 sm:py-3
                 shadow-lg
@@ -92,7 +92,7 @@
                 sm:mb-0
                 text-lg
                 border-2 border-purple-800
-                dark:border-ternary-dark
+                dark:border-primary-dark
                 py-2.5
                 sm:py-3
                 shadow-lg
@@ -127,7 +127,7 @@
           <p
             v-for="projectDetail in project.projectDetails"
             :key="projectDetail.id"
-            class="mb-5 text-lg text-ternary-dark dark:text-ternary-light pl-5"
+            class="mb-5 text-lg text-primary-dark dark:text-ternary-light pl-5"
           >
             {{ projectDetail.details }}
           </p>

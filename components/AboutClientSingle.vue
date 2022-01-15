@@ -9,7 +9,7 @@
         py-5
         px-10
         border border-ternary-light
-        dark:border-ternary-dark
+        dark:border-primary-dark
         shadow-sm
         rounded-lg
         mb-8

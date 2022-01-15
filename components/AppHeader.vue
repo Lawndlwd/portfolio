@@ -32,7 +32,7 @@
             sm:hidden
             ml-8
             bg-primary-light
-            dark:bg-ternary-dark
+            dark:bg-primary-dark
             px-2
             py-1.5
             sm:px-3 sm:py-2
@@ -46,7 +46,7 @@
             v-if="$colorMode.value == 'light'"
             xmlns="http://www.w3.org/2000/svg"
             class="
-              text-liText-ternary-dark
+              text-liText-primary-dark
               hover:text-gray-400
               dark:text-liText-ternary-light
               dark:hover:text-liBorder-primary-light
@@ -157,7 +157,7 @@
           class="
             sm:ml-6
             bg-primary-light
-            dark:bg-ternary-dark
+            dark:bg-primary-dark
             px-2
             py-2
             shadow-sm
@@ -170,7 +170,7 @@
             v-if="$colorMode.value == 'light'"
             xmlns="http://www.w3.org/2000/svg"
             class="
-              text-liText-ternary-dark
+              text-liText-primary-dark
               hover:text-gray-400
               dark:text-liText-ternary-light
               dark:hover:text-liBorder-primary-light
@@ -214,7 +214,7 @@
             v-else
             v-html="iconSvg"
             class="
-              text-liText-ternary-dark
+              text-liText-primary-dark
               hover:text-gray-400
               dark:text-liText-ternary-light
               dark:hover:text-liBorder-primary-light
