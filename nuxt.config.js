@@ -1,3 +1,5 @@
+const main_base_URL = "https://www.fiveslash.com";
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
@@ -45,7 +47,13 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ["@nuxtjs/sitemap"],
+  sitemap: {
+    hostname: main_base_URL,
+  },
+  env: {
+    main_base_URL,
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
