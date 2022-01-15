@@ -51,6 +51,7 @@ export default {
   sitemap: {
     hostname: process.env.BASE_URL || "https://fiveslash.com",
     path: "/sitemap.xml",
+    gzip: true,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
