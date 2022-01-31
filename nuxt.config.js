@@ -22,7 +22,7 @@ export default {
       {
         name: "description",
         content:
-          "Self-taught JavaScript developer ,living near Paris, specialized in React and Vue Focused on developing accessible, and responsive web applications, as well as improving my skills within the JavaScript ecosystem, working with current web technologies such as Vue,Typescript, React, Nuxt.js & Node.js to create data-driven, feature-rich applications.",
+          "Self-taught JavaScript developer ,living near Paris, specialized in React and Vue Focused on developing accessible, and responsive web applications",
       },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
@@ -40,7 +40,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Self-taught JavaScript developer ,living near Paris, specialized in React and Vue Focused on developing accessible, and responsive web applications, as well as improving my skills within the JavaScript ecosystem, working with current web technologies such as Vue,Typescript, React, Nuxt.js & Node.js to create data-driven, feature-rich applications.",
+          "Self-taught JavaScript developer ,living near Paris, specialized in React and Vue Focused on developing accessible, and responsive web applications.",
       },
       {
         property: "og:image",
@@ -53,7 +53,7 @@ export default {
       {
         property: "twitter:description",
         content:
-          "Self-taught JavaScript developer ,living near Paris, specialized in React and Vue Focused on developing accessible, and responsive web applications, as well as improving my skills within the JavaScript ecosystem, working with current web technologies such as Vue,Typescript, React, Nuxt.js & Node.js to create data-driven, feature-rich applications.",
+          "Self-taught JavaScript developer ,living near Paris, specialized in React and Vue Focused on developing accessible, and responsive web applications",
       },
       { property: "twitter:card", content: "summary_large_image" },
       {
